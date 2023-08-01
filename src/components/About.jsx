@@ -4,7 +4,7 @@ import {
   // useNavigate
 } from "react-router-dom";
 import './css/about.css';
-import logo from './logo.png';
+// import logo from './logo.png';
 // import { } from "react-router-dom";
 
 
@@ -14,7 +14,8 @@ import logo from './logo.png';
         <header className="header">
           <div className="edwin">
             <Link to="/" className="edwin">
-             <img className="lg" src={logo} alt="logo" />
+              Edwin Lugakingira
+             {/* <img className="lg" src={logo} alt="logo" /> */}
             </Link>
           </div>
 

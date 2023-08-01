@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 import './css/blog.css';
-import logo from './logo.png';
+// import logo from './logo.png';
 
 function Blog() {
 
@@ -10,7 +10,8 @@ function Blog() {
         <header className="header">
           <div className="edwin">
             <Link to="/" className="edwin">
-             <img className="lg" src={logo} alt="logo" />
+              Edwin Lugakingira
+             {/* <img className="lg" src={logo} alt="logo" /> */}
             </Link>
           </div>
 

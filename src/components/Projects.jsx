@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './css/projects.css'
 import {
   Link, 
   // useNavigate 
 } from "react-router-dom";
-import logo from './logo.png'
+// import logo from './logo.png'
 
  function Projects() {
   // const navigate = useNavigate();
@@ -13,7 +13,8 @@ import logo from './logo.png'
       <header className="header">
           <div className="edwin">
             <Link to="/" className="edwin">
-             <img className="lg" src={logo} alt="logo" />
+              Edwin Lugakingira
+             {/* <img className="lg" src={logo} alt="logo" /> */}
             </Link>
           </div>
 
